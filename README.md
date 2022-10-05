@@ -14,6 +14,7 @@
 - Rahti wants your app to listen on port 8080 (can be changed under _Routes_)
 - To run you app over SSL (https) just enable it in you Route (Applications/Routes) by enabling "Secure Route" (you can also set "Insecure Traffic" to _redirect_ or _allow_)
 - The `.devcontainer` folder is a VSCode thing, not needed for Rahti. 
+- Set `flask run` to listening mode: `export FLASK_ENV=development`
 
 
 

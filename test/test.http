@@ -10,18 +10,19 @@ POST {{baseUrl}}
 Content-Type: application/json
 
 { 
-    "testkey": "Test value"
+    "testkey": "Test value",
+    "foo": "bar"
 }
 
 ###
 
-GET {{baseUrl}}/test-route
+GET {{baseUrl}}/users
 
 ###
 
-POST {{baseUrl}}/test-route
+POST {{baseUrl}}/users
 Content-Type: application/json
 
 { 
-    "testkey": "Test value"
+    "email": "john.doe@foo.bar"
 }
