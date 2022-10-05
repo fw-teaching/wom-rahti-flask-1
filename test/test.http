@@ -6,6 +6,15 @@ GET {{baseUrl}}
 
 ###
 
+POST {{baseUrl}}
+Content-Type: application/json
+
+{ 
+    "testkey": "Test value"
+}
+
+###
+
 GET {{baseUrl}}/test-route
 
 ###
