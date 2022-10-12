@@ -1,5 +1,5 @@
 import os
-from flask_app import app
+from flask_app import app # importera Flask-appen
 import routes # importera routes
 
 if __name__ == "__main__":

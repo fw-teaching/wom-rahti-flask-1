@@ -1,9 +1,10 @@
+# Alla routes i den här filen
 import os
 from flask import request
 from dotenv import load_dotenv
 
-from flask_app import app # Flask-appen i skild fil 
-from models import User # Importera User från models
+from flask_app import app # # importera Flask-appen
+from models import User # importera User från models
 
 load_dotenv()
 

@@ -1,11 +1,11 @@
+# Alla models i den här filen
 import os
 from dotenv import load_dotenv
 from flask_sqlalchemy import SQLAlchemy
 
-from flask_app import app
+from flask_app import app # importera Flask-appen
 load_dotenv()
 
-from flask_app import app
 
 # SQLAlchemy (postgresql)
 # create the extension
